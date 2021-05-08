@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PersonService {
 
-
     @SentinelResource(value = "np",blockHandler = "failback")
     public String getMess() {
 
