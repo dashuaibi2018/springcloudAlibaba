@@ -13,4 +13,4 @@
 ## 如果有多套网络，又无法正确获取本机IP，则需要使用下面的参数设置当前机器可被外部访问的IP地址，供admin控制台使用
 ## spring.cloud.sentinel.transport.client-ip=
 #
-#spring.cloud.nacos.discovery.server-addr=localhost:8848
+#spring.cloud.nacos.discovery.server-addr=node01:8848
